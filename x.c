@@ -47,15 +47,15 @@ typedef struct {
 } Key;
 
 enum resource_type {
-    STRING = 0;
-    INTEGER = 1;
-    FLOAT = 2;
+    STRING = 0,
+    INTEGER = 1,
+    FLOAT = 2
 };
 
 typedef struct {
     char *name;
     enum resource_type type;
-    void +dst;
+    void *dst;
 } ResourcePref;
 
 /* X modifiers */
