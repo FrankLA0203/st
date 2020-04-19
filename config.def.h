@@ -8,7 +8,6 @@
 static char *font = "FuraMono Nerd Font:size=8:antialias=true:autohint=true";
 static char *font2[] = {
     "Source Code Pro:size=8:antialias=true:autohint=true",
-    "Apple Color Emoji:size=8:antialias=true:autohint=true"
 };
 static int borderpx = 20;
 
